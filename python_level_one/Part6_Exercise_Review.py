@@ -64,7 +64,7 @@ print(d3["k1"][0]["nest_key"][1][0])
 
 # Use a set to find the unique values of the list below:
 mylist = [1,1,1,1,1,2,2,2,2,3,3,3,3]
-
+print(set(mylist))
 
 
 ###############
@@ -77,12 +77,6 @@ name = "Sammy"
 
 # Use print formatting to print the following string:
 str = "Hello my dog's name is {} and he is {} years old"
-
-
-
-def main():
-
-	print(set(mylist))
-	print(str.format(name, age))
+print(str.format(name, age))
 
 
